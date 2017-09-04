@@ -41,6 +41,8 @@ Treechains[15]提出了一种树状的区块链结构，在其子区块链中使
 
 ### 4.7 Cosmos/Tendermint
 
+Cosmos[18]通过Cosmos Hub将众多区块链组织起来，同时包括基于权益证明(PoS)系统验证的子区块链区域。虽然在构建子区块链上有相似性，但是Plasma更加依赖于欺诈检验来确保子区块链的状态，并且被广泛应用于许多链中。Cosmos中的权益证明系统则假设系统中有2/3的验证节点是诚实的，其中也包括Cosmos Zone中的验证节点。
+
 ### 4.8 Polkadot
 
 Polkadot[19]也同样构建了一个层次化的区块链结构。Plasma与Polkadot的设计有一些相似之处。与Polkadot使用“fishermen”验证者来保证区块链准确性的方法不同，我们使用了一系列子链通过merkle证明来确保状态。Polkadot的方法严重依赖于由“fishermen”保证的子链(parachains)上的状态和信息的可用性。
