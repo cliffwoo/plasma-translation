@@ -43,6 +43,8 @@ Treechains[15]提出了一种树状的区块链结构，在其子区块链中使
 
 ### 4.8 Polkadot
 
+Polkadot[19]也同样构建了一个层次化的区块链结构。Plasma与Polkadot的设计有一些相似之处。与Polkadot使用“fishermen”验证者来保证区块链准确性的方法不同，我们使用了一系列子链通过merkle证明来确保状态。Polkadot的方法严重依赖于由“fishermen”保证的子链(parachains)上的状态和信息的可用性。
+
 ### 4.9 Lumino
 
 Lumino被设计为一个对区块链上更新进行压缩的EVM合约。这允许参与者仅仅提交最小化的状态更新。Plasma关于输出管理的设计更进一步，仅仅通过1个bit来标识一个特定的输出。在此基础上可以在Plasma链失效的前提下进行快速低成本的大规模提款。
